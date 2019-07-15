@@ -1,0 +1,36 @@
+#编译的class文件
+*.class
+
+# 包文件 package file
+*.war
+*.ear
+
+#kdiff3 KDiff3是一款用来对文件或目录进行比较和合并的工具
+*.orig
+
+#maven
+target/
+
+#eclipse
+.settings/
+.project
+.classpatch
+
+#idea
+.idea
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#临时文件 日志文件
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#系统文件
+Thumbs.db
+._DS_Store
+
